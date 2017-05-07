@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HHO2View"
-  s.version      = "0.0.4"
+  s.version      = "0.0.8"
   s.summary      = "HHO2View."
 
   # This description is used to generate tags and improve search results.
@@ -103,8 +103,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resource  = "Classes/HHImage.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
