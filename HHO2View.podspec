@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "HHO2View"
-  s.version      = "0.0.9"
+  s.version      = "0.1.1"
   s.summary      = "HHO2View."
   s.description  = "纤细描述，哈哈哈哈"
   s.homepage     = "https://github.com/huanghuacaiCoder/HHO2View"
@@ -11,5 +11,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/huanghuacaiCoder/HHO2View.git", :tag => "#{s.version}" }
   s.source_files  = "Classes/**/*.{h,m}"
   s.resource  = "Classes/HHImage.bundle"
+  s.preserve_paths = "Classes/**/*.a"
+  s.vendored_libraries = "Classes/**/*.a"
   s.requires_arc = true
+  s.dependency 'AFNetworking', '~> 2.3'
 end
