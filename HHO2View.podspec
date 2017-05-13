@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "HHO2View"
-  s.version      = "0.1.5"
+  s.version      = "0.1.6"
   s.summary      = "HHO2View."
   s.description  = "纤细描述，哈哈哈哈"
   s.homepage     = "https://github.com/huanghuacaiCoder/HHO2View"
