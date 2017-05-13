@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "HHO2View"
-  s.version      = "0.1.4"
+  s.version      = "0.1.5"
   s.summary      = "HHO2View."
   s.description  = "纤细描述，哈哈哈哈"
   s.homepage     = "https://github.com/huanghuacaiCoder/HHO2View"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { "huanghuacai" => "18811108252@163.com" }
   s.platform     = :ios, '9.0'
   s.source       = { :git => "https://github.com/huanghuacaiCoder/HHO2View.git", :tag => "#{s.version}" }
-  s.source_files  = "Classes/**/*.{h,m}"
+  s.source_files  = "Classes/Kit/**/*.{h,m}"
   s.resource  = "Classes/HHImage.bundle"
   #s.preserve_paths = "Classes/**/*.a"
   #s.vendored_libraries = "Classes/**/*.a"
